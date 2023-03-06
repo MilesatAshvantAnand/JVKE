@@ -1,0 +1,18 @@
+/*this is for the songs page*/
+*{
+     box-sizing: border-box;
+     margin: 0%;
+     padding: 0%;
+}
+.goldenHour-img {
+  background-image: url(/media/images/IMGFORJVKE1.jpeg);
+  position: fixed;
+  width:25%;
+  height: 50%;
+  left: 2%;
+  top: 15%;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+  filter: drop-shadow(6px 10px 4px rgba(0, 0, 0, 0.25));
+  background-size: cover; 
+} 
