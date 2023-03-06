@@ -40,13 +40,41 @@
   color: #000000;
   bottom: 5%;
   position: relative;
-  display:table;
+  display:table ;
 }
 .navbar-nav{
   padding-left: 5% !important;
+  position:sticky;
+  overflow: hidden;
 }
+
 @media only screen and (max-width: 350px)  {
   .nav-logo{
     font-size:55px;
+  }
+}
+#Video1{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw; 
+  min-height: 100vh;
+}
+.goldenHour-img {
+  position: relative;
+  left:30%;
+  top: 15%;
+  width: 40%;
+  height: fit-content;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+  filter: drop-shadow(6px 10px 4px rgba(0, 0, 0, 0.25));
+  background-size: cover; 
+  display:block;
+} 
+@media only screen and (max-width: 550px)  {
+  .goldenHour-img{
+    width: 40%;
+    left:15%;
   }
 }
