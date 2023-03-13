@@ -3,9 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "JetBrains Mono" !important;
-  font-style: normal !important ;
+  font-style: normal !important;
   font-weight: 800 !important;
 }
+
 .nav-link {
   width: 111px;
   height: 2vh;
@@ -24,6 +25,7 @@
   position: relative;
   display: table !important;
 }
+
 .nav-logo {
   width: 244px;
   height: 71px;
@@ -40,41 +42,92 @@
   color: #000000;
   bottom: 5%;
   position: relative;
-  display:table ;
+  display: table;
 }
-.navbar-nav{
+
+.navbar-nav {
   padding-left: 5% !important;
-  position:sticky;
+  position: sticky;
   overflow: hidden;
 }
 
-@media only screen and (max-width: 350px)  {
-  .nav-logo{
-    font-size:55px;
+@media only screen and (max-width: 350px) {
+  .nav-logo {
+    font-size: 55px;
   }
 }
-#Video1{
+
+#Video1 {
   position: relative;
   right: 0;
   bottom: 0;
-  min-width: 100vw; 
+  min-width: 100vw;
   min-height: 100vh;
 }
+
 .goldenHour-img {
   position: relative;
-  left:30%;
-  top: 15%;
-  width: 40%;
+  left: 34%;
+  width: 35%;
   height: fit-content;
   background-repeat: no-repeat;
   mix-blend-mode: normal;
   filter: drop-shadow(6px 10px 4px rgba(0, 0, 0, 0.25));
-  background-size: cover; 
-  display:block;
-} 
-@media only screen and (max-width: 550px)  {
-  .goldenHour-img{
+  background-size: cover;
+  display: flex;
+  margin-top:2%;
+  margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 550px) {
+  .goldenHour-img {
     width: 40%;
-    left:15%;
+    left: 15%;
   }
+}
+
+.left-arrow {
+  position: relative;
+  float: left;
+}
+
+main {
+  margin-top: 14vh;
+}
+
+.left-arrow {
+  float: left;
+  display: table;
+}
+
+main {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.nextIcon,
+.backIcon {
+  color: #000000;
+  background-color: rgb(24, 24, 24);
+  filter: invert(100%);
+  height:10vh !important;
+}
+
+.carouselDiv {
+  width: 100vw;
+  background-color: rgb(231, 231, 231);
+}
+
+.albumsText {
+  position: relative;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size:7.5em ;
+  left: 37%;
+  background: linear-gradient(180deg, #000000 0%, #3E3D3D 31.25%, rgba(62, 62, 62, 0.975206) 48.44%, rgba(66, 64, 64, 0.672715) 65.62%, rgba(76, 71, 71, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
