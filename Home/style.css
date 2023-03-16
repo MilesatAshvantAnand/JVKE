@@ -131,3 +131,20 @@ main {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.merchText{
+  position: relative;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size:7.5em ;
+  left: 37%;
+  background: linear-gradient(180deg, #000000 0%, #3E3D3D 31.25%, rgba(62, 62, 62, 0.975206) 48.44%, rgba(66, 64, 64, 0.672715) 65.62%, rgba(76, 71, 71, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  rotate: 90;
+}
+.goldenHour-img .:hover{
+  opacity: 0.5;
+  transition: ease;
+}
