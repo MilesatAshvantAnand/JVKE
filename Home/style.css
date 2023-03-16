@@ -144,7 +144,28 @@ main {
   background-clip: text;
   rotate: 90;
 }
-.goldenHour-img .:hover{
-  opacity: 0.5;
-  transition: ease;
+.icon{
+  height:30px;
+  width: 38px;
+ margin-right: 15px !important;
+}
+.faceIcon{
+  height: 10px;
+  width: 30px;
+}
+.faceIcon:hover{
+  fill: #4267B2
+}
+.spotIcon:hover{
+  fill:#1DB954
+}
+.youIcon:hover{
+  fill: red;
+}
+.twitterIcon:hover{
+  fill: #1DA1F2
+}
+.tikIcon:hover{
+  color: #111111;
+  filter: drop-shadow(1px 0px 0px #FD3E3E) drop-shadow(-1px -1px 0px #4DE8F4);
 }
